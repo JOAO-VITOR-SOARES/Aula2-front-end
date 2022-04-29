@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 27px;
+}
+body{
+    background: linear-gradient(0.25turn, #eefff3, #dee3ff, #ffdada);
+}
+#perg{
+    padding-top: 10px;
+    /*padding-left: 1cm;*/
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+
+}
+#resp{
+    padding-top: 10px;
+    /*padding-left: 1cm;*/
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+#markg{
+    padding-top: 10px;
+    text-align: center;
+    /*padding-left: 1cm;*/
+    font-family: 'Courier New', Courier, monospace
+    
+}
+#maki7{
+    padding-top: 10px;
+    padding-left: 6cm;
+    padding-top: 60px;
+}
+#maki1{
+    padding-top: 10px;
+    padding-left: 1cm;
+    padding-top: 60px;
+}
+#maki2{
+    padding-top: 10px;
+    padding-left: 2cm;
+    padding-top: 60px;
+}
+.Comprar{
+        background-color: #000000; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+.div{
+    text-align: center;
+    padding-top: 25px;
+}
