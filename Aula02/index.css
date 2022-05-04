@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&family=Libre+Franklin:wght@100&family=Poppins:wght@100&family=Space+Mono:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 h1{
     text-align: center;
     font-family: 'Space Mono', monospace;
@@ -10,28 +17,30 @@ h2{
     font-size: 27px;
 }
 body{
-    background: linear-gradient(0.25turn, #eefff3, #dee3ff, #ffdada);
+    background-color: white; /*linear-gradient(0.25turn, #eefff3, #dee3ff, #ffdada);*/
 }
 #perg{
     padding-top: 10px;
     /*padding-left: 1cm;*/
     text-align: center;
     font-family: 'Space Mono', monospace;
-
 }
 #resp{
     padding-top: 10px;
     /*padding-left: 1cm;*/
     text-align: center;
-    font-family: 'Courier New', Courier, monospace
-    
 }
 #markg{
     padding-top: 10px;
     text-align: center;
     /*padding-left: 1cm;*/
-    font-family: 'Courier New', Courier, monospace
-    
+}
+.escrita p{
+    font-family: 'Space Mono', monospace;
+    padding: 19px;
+}
+.escrita{
+    padding: 5px;
 }
 #maki7{
     padding-top: 10px;
@@ -46,10 +55,11 @@ body{
 #maki2{
     padding-top: 10px;
     padding-left: 2cm;
-    padding-top: 60px;
+    padding-top: 60px;     
 }
+
 .Comprar{
-        background-color: #000000; /* Green */
+        background-color: #000000;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -59,8 +69,59 @@ body{
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
+        transition-duration: 0.4s;
 }
+.Comprar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 .div{
     text-align: center;
     padding-top: 25px;
+}
+.navigato{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+  padding: 10px;
+} 
+.links{
+    text-decoration: none;
+    align-items:center;
+    font-family: verdana;
+    color: white;
+    text-shadow: 2px 2px 4px #f9f9f9;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.links{
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.links:hover {opacity: 1}
+
+header{
+    background-color:black;
+    height: 50px;
+}
+.corpo{
+    padding:10px;
+}
+footer{
+    background-color:black;
+    padding: 20px;
+    gap:40px;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+}
+
+footer p{
+    color:white;
+    text-decoration: none;
+}
+#todos {
+    justify-content: right;
 }
