@@ -60,13 +60,13 @@ header {
     text-align: center;
 }
 
-#text{
+.text{
     color: #f9f9f9;
     font-family: Verdana;
     font-size: larger;
     font-size: 30px;
     padding-top: 70px;
-}#text2{
+}.text2{
     color: #f9f9f9;
     font-family: Verdana;
     font-size: larger;
@@ -80,13 +80,16 @@ header {
 
 #container{
     display : flex;
+    justify-content:center;
     flex-direction : row;
 }
 
 #box{
+    
     display : flex;
     flex-direction : row;
     text-align: justify;
+    
 }
 
 #email-nosso{
@@ -95,7 +98,7 @@ header {
 }
 
 #formulario{
-    margin-right: 200px;
+    margin-right: 200px;    
 }
 
 .texto-nossoemail{
@@ -120,11 +123,12 @@ header {
     text-indent: 30px;
     font-size: 25px;
     padding-bottom: 20px;
-    padding-top: 20px; 
+    padding-top: 20
 }
 
-#div-form{
-    text-align: center;
+.div-form{
+
+    margin: 0 auto 100px;
     position: relative;
     background: rgb(205, 203, 203);
     max-width: 360px;
@@ -132,6 +136,7 @@ header {
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     border-radius: 30px;
+
 }
 
 #nome-form{
@@ -205,7 +210,4 @@ header {
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
-}
-.container1{
-    padding-left: 50px;
 }

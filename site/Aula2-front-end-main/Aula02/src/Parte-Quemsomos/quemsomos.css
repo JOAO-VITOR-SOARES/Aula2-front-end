@@ -80,7 +80,9 @@ header {
 
 #j1{
     color: white;
-    
+    text-align: center;
+    font-size:50px;
+
 }
 
 .container{
@@ -108,12 +110,16 @@ header {
     text-align: center;
 }
 footer{
+
     background-color:black;
     gap: 40px;
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0; 
     justify-content: center;
 
 }
